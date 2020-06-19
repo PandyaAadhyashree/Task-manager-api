@@ -10,6 +10,6 @@ app.use(userRouter)
 app.use(taskRouter)
 
 app.listen(port,()=>{
-      console.log('Server is runnig on Port number : ',port)
+      console.log('Server is runnig on Port : ',port)
 })
 
